@@ -4,7 +4,37 @@ body{
 }
 h1{
     font-size: 42px;
-}.orange-color{
+}
+.search-box{
+    margin: 100px 0px 0px 100px;
+    background: center / contain no-repeat url("../../media/examples/firefox-logo.svg"),
+    #eee 35% url("../../media/examples/lizard.png");
+    width: 270px;
+    height: 50px;padding: 25px 0px 0px 20px;
+
+}
+#text{
+    width: 200px;
+    height: 20px;
+    color: gainsboro;
+    border-radius: 10px;
+}
+#submit{
+    border:burlywood;
+    width: 50px;
+    height: 24px;
+    background: #b9b9b9;
+    cursor: pointer;
+    border: 2px solid black;
+    text-decoration-color: brown;
+}
+#submit:hover
+{
+    background: #9d226d;
+    color: #ffffff;
+    opacity: 0.8;
+}
+.orange-color{
     color: orange;
 }
 .flexible-container{
@@ -60,6 +90,11 @@ h1{
 #my-recipie{
     align-content: center;
     border-radius: 10px;
+}
+.pre-footer{
+    width: 33%;
+    border:none;
+    text-align: center;
 }
 footer{
     text-align: center;
