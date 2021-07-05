@@ -7,7 +7,7 @@ h1{
 }.orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -33,4 +33,34 @@ section{
 .about-me{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+}
+#my-recipie{
+    text-align: center;
+    text-emphasis-position: centre;
+}
+.recipie-title{
+    width: 33%;
+    border: 3px solid;
+    border-color: chartreuse;
+    float: left;
+    margin-left: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px;
+}
+,.recipie-title{
+    width: 80%;
+}
+.image{
+    width: 80%;
+    object-position: (50% 50%);
+    margin-top: 35px;
+    margin-left: 30px;
+}
+#my-recipie{
+    align-content: center;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
 }
